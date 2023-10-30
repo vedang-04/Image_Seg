@@ -11,20 +11,20 @@ The model architectures for UNet and Modified UNet can be seen;
 To train from scratch use the following command;<br>
 If we want to train the model with the consistency loss,
 '''%cd path to ood_seg
-python main.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --bs 8 --c_coeff 1 --lr 0.0001 --epochs 30 --model vgg_unet1'''<br>
+python main.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --bs 8 --c_coeff 1 --lr 0.0001 --epochs 30 --model vgg_unet1 <br>
 Also, if we want to train the model without the consistency loss,
 '''%cd path to ood_seg
-python main_woc.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --bs 8 --lr 0.0001 --epochs 30 --model vgg_unet1'''<br>
+python main_woc.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --bs 8 --lr 0.0001 --epochs 30 --model vgg_unet1 <br>
 To test the pre-trained models or the trained model one can use the following command;<br>
 For models trained with consistency loss,
 '''%cd path to ood_seg
-python evaluate_woc.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --model vgg_unet1'''
+python evaluate_woc.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --model vgg_unet1
 Also, for models trained without consistency loss,
 '''%cd path to ood_seg
-python evaluate_woc.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --model vgg_unet1'''
+python evaluate_woc.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --model vgg_unet1
 To visualize the ground truth or the predictions one can use the following command;<br>
 '''%cd path to ood_seg
-python visualize.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --corr 0 --is_pred 0 --img_num 0 --model vgg_segnet1 --is_woc 0 --is_plot_model 0'''<br>
+python visualize.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --corr 0 --is_pred 0 --img_num 0 --model vgg_segnet1 --is_woc 0 --is_plot_model 0 <br>
 <br>
 # Qualitative Results
 Here are a few plots of the loss functions;<br>
