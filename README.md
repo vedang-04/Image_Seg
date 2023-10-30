@@ -53,7 +53,7 @@ With respect to task 2<br>
 <br>
 Here are a few results visualizations<br>
 With respect to task 1 <br>
-![Image](imgs/final_fig_task_1.PNG)<br>
+![Image](imgs/fig_final_task_1.PNG)<br>
 With respect to task 2<br>
 ![AutoAugment trained Modified UNet with Consistency Loss; Image, Ground Truth, Corruptions, Predictions](imgs/final_fig_task_2_1.PNG)<br>
 With respect to task 2<br>
