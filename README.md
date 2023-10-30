@@ -16,16 +16,12 @@ If we want to train the model with the consistency loss,
 ```bash
 %cd path_to_ood_seg
 python main_woc.py --data_path /path/to/dataset/ --aug none --bs 8 --lr 0.0001 --epochs 30 --model vgg_unet1
-<br>
 ```
-<br>
 Also, if we want to train the model without the consistency loss,<br>
-'''
+```bash
 %cd path to ood_seg
 python main_woc.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --bs 8 --lr 0.0001 --epochs 30 --model vgg_unet1
-'''
-<br>
-<br>
+```
 To test the pre-trained models or the trained model one can use the following command;<br>
 For models trained with consistency loss,<br>
 '''
