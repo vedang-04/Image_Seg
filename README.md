@@ -1,9 +1,12 @@
 # Image_Seg
 This project is a part of submissions to the CVIT task related to Image Segmentation.<br>
 Report: [Task 1](https://drive.google.com/drive/folders/1tfWXMDAD7OLHQasNGLo6mglzh-izk4EP?usp=sharing) | [Task 2](https://drive.google.com/drive/folders/1tfWXMDAD7OLHQasNGLo6mglzh-izk4EP?usp=sharing) <br>
-This code runs for both the tasks; task 1 which was to perform image segmentation on the given [Indian Driving Dataset Lite](https://idd.insaan.iiit.ac.in/evaluation/ncvgip19/) and task 2 which is a novel extension of task 1 in order to deal with out-of-distribution image segmentation using this dataset and [Image Corruptions Module](https://github.com/bethgelab/imagecorruptions.git). <br>
-Please download the corruption module inside the given repo if you need to. <br>
-We can train from scratch, evaluate pre-trained models, and visualize the segmentation labels for ground truth and predictions with respect to task 1 and task 2.<br>
+This code runs for both the tasks; task 1 which was to perform image segmentation on the given [Indian Driving Dataset Lite](https://idd.insaan.iiit.ac.in/evaluation/ncvgip19/) having 7 (+ 1) classes of Drivable, Non-Drivable, Living Things, Vehicles, Road Side Objects, Far Objects, Sky, and additional class Misc/ Non-Trainable (background) and task 2 which is a novel extension of task 1 in order to deal with out-of-distribution image segmentation using this dataset and [Image Corruptions Module](https://github.com/bethgelab/imagecorruptions.git). <br>
+Please download the corruption module inside the given repo if you need to. 
+<br>
+<br>
+We can train from scratch, evaluate pre-trained models, and visualize the segmentation labels for ground truth and predictions with respect to task 1 and task 2.
+<br>
 The image and the ground truth label can be seen as follows;
 <br>
 The model architectures for UNet and Modified UNet can be seen;
