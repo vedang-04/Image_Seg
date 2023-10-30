@@ -7,10 +7,10 @@ Please download the corruption module inside the given repo if you need to.
 <br>
 We can train from scratch, evaluate pre-trained models, and visualize the segmentation labels for ground truth and predictions with respect to task 1 and task 2.
 <br>
-The image and the ground truth label can be seen as follows;
+The image and the ground truth label can be seen as follows;<br>
 ![Examples of the Dataset](https://github.com/vedang-04/Image_Seg/imgs/fig_2)
 <br>
-The model architectures for UNet and Modified UNet can be seen;
+The model architectures for UNet and Modified UNet can be seen;<br>
 ![Model Architectures; UNet and Modified UNet](https://github.com/vedang-04/Image_Seg/imgs/model_arch)
 <br>
 <br>
