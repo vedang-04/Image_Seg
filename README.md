@@ -47,14 +47,18 @@ python visualize.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none -
 # Qualitative Results
 Here are a few plots of the loss functions;<br>
 With respect to task 1 <br>
-<><br>
+![Training convergence for UNet, Modified UNet, SegNet, and Modified SegNet](imgs/fig_loss_task_1.PNG)
 With respect to task 2<br>
-<><br>
+![Training convergence using Auto-Augment; Modified UNet without consistency loss, Modified UNet with consistency loss, SegNet without consistency loss, SegNet with consistency loss](imgs/fig_loss_task_2.PNG)
+<br>
 <br>
 Here are a few results visualizations<br>
 With respect to task 1 <br>
-<><br>
+![Image; Ground Truth; UNet; Modified UNet; SegNet; Modified SegNet](imgs/final_fig_task_1.PNG)
 With respect to task 2<br>
-<><br>
-
+![AutoAugment trained Modified UNet with Consistency Loss; Image, Ground Truth, Corruptions, Predictions](imgs/final_fig_task_2_1.PNG)
+With respect to task 2<br>
+![AutoAugment trained Modified UNet with Consistency Loss; Image, Ground Truth, Corruptions, Predictions](imgs/final_fig_task_2_2.PNG)
+<br>
+<br>
 Thus this repo is aimed as a part of submission to the CVIT tasks, where for the first task four basic segmentation models were used to perform image segmentation on the dataset. For the next task, two of the best models were chosen which was nothing but the first task's extension from an out-of-distribution point of view during the inference stage. <br>
