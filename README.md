@@ -8,8 +8,10 @@ Please download the corruption module inside the given repo if you need to.
 We can train from scratch, evaluate pre-trained models, and visualize the segmentation labels for ground truth and predictions with respect to task 1 and task 2.
 <br>
 The image and the ground truth label can be seen as follows;
+![Examples of the Dataset](imgs/fig_2)
 <br>
 The model architectures for UNet and Modified UNet can be seen;
+![Model Architectures; UNet and Modified UNet](imgs/model_arch)
 <br>
 <br>
 To train from scratch use the following command;
