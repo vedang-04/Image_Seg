@@ -17,6 +17,7 @@ If we want to train the model with the consistency loss,
 %cd path_to_ood_seg
 python main_woc.py --data_path /path/to/dataset/ --aug none --bs 8 --lr 0.0001 --epochs 30 --model vgg_unet1
 <br>
+```
 <br>
 Also, if we want to train the model without the consistency loss,<br>
 '''
