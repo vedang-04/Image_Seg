@@ -22,28 +22,23 @@ Also, if we want to train the model without the consistency loss,<br>
 %cd path to ood_seg
 python main_woc.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --bs 8 --lr 0.0001 --epochs 30 --model vgg_unet1
 ```
-To test the pre-trained models or the trained model one can use the following command;<br>
-For models trained with consistency loss,<br>
-'''
+To test the pre-trained models or the trained model one can use the following command;
+<br>
+For models trained with consistency loss,
+```bash
 %cd path to ood_seg
 python evaluate_woc.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --model vgg_unet1
-'''
-<br>
-<br>
+```
 Also, for models trained without consistency loss,<br>
-'''
+```bash
 %cd path to ood_seg
 python evaluate_woc.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --model vgg_unet1
-'''
-<br>
-<br>
+```
 To visualize the ground truth or the predictions one can use the following command;<br>
-'''
+```bash
 %cd path to ood_seg
 python visualize.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --corr 0 --is_pred 0 --img_num 0 --model vgg_segnet1 --is_woc 0 --is_plot_model 0 
-'''
-<br>
-<br>
+```
 # Qualitative Results
 Here are a few plots of the loss functions;<br>
 With respect to task 1 <br>
