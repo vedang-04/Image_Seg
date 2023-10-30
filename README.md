@@ -8,12 +8,14 @@ The image and the ground truth label can be seen as follows;
 <br>
 The model architectures for UNet and Modified UNet can be seen;
 <br>
-To train from scratch use the following command;<br>
-If we want to train the model with the consistency loss,<br>
-'''
-%cd path to ood_seg
-python main.py --data_path /content/drive/MyDrive/idd20k_lite/ --aug none --bs 8 --c_coeff 1 --lr 0.0001 --epochs 30 --model vgg_unet1 
-'''
+<br>
+To train from scratch use the following command;
+<br>
+If we want to train the model with the consistency loss,
+<br>
+```bash
+%cd path_to_ood_seg
+python main_woc.py --data_path /path/to/dataset/ --aug none --bs 8 --lr 0.0001 --epochs 30 --model vgg_unet1
 <br>
 <br>
 Also, if we want to train the model without the consistency loss,<br>
